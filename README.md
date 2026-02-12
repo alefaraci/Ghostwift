@@ -4,7 +4,7 @@
   <br>Ghostwift
 </h1>
   <p align="center">
-    A lightweight macOS utility that opens your current Finder folder directly in the <a href="https://github.com/ghostty-org/ghostty">Ghostty</a>.
+    A lightweight macOS utility that opens your current Finder folder path directly in the <a href="https://github.com/ghostty-org/ghostty">Ghostty</a>.
     <br />
     <a href="#about">About</a>
     ·
@@ -42,10 +42,10 @@
 
 ## Usage
 
-1. Navigate to a folder you want to open with `Ghostty`;
+1. Navigate to a folder path you want to open with `Ghostty`;
 2. Click on the `Ghostwift` toolbar icon.
 
-The folder will open in `Ghostty` terminal at the Finder path.
+The Finder folder path will open in `Ghostty` terminal.
 
 Here's a quick demo:
 
