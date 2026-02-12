@@ -62,7 +62,7 @@ Here's a quick demo:
 
 ## Credit
 
-App icon inspired by the [`Ghostty Logomark`](https://ghostty.org/brand). "Ghostty" and the Ghostty logo are trademarks of Mitchell Hashimoto. `Ghostwift` is not affiliated with or endorsed by Mitchell Hashimoto or the Ghostty project.
+App icon inspired by the [`Ghostty Logomark`](https://ghostty.org/). "Ghostty" and the Ghostty logo are trademarks of Mitchell Hashimoto. `Ghostwift` is not affiliated with or endorsed by Mitchell Hashimoto or the Ghostty project.
 
 ## Author
 
