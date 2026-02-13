@@ -50,8 +50,25 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     private func openInGhostty(path: String) {
         let process = Process()
         process.executableURL = URL(fileURLWithPath: "/usr/bin/open")
-        process.arguments = ["-na", "Ghostty", path]
-        try? process.run()
-        process.waitUntilExit()
+        process.arguments = ["-a", "Ghostty", path]
+
+        do {
+            try process.run()
+            process.waitUntilExit()
+
+            if process.terminationStatus != 0 {
+                showError()
+            }
+        } catch {
+            showError()
+        }
+    }
+
+    private func showError() {
+        let alert = NSAlert()
+        alert.messageText = "Unable to find application named 'Ghostty.app'"
+        alert.alertStyle = .critical
+        alert.addButton(withTitle: "OK")
+        alert.runModal()
     }
 }
